@@ -1,0 +1,309 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3; /* Light background color */
+}
+
+/* Navigation Bar styles */
+.navbar {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 15px ;
+  position: fixed;
+  width: 100%;
+  
+ 
+
+}
+
+.container {
+  width: 90%;
+  margin: 100px;
+  background-size: cover;
+  
+}
+
+.logo {
+  float: left;
+}
+
+.nav-links {
+  float: right;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hero Section styles */
+.hero {
+  background-image: url('hero-bg.jpg'); /* Add your hero background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Section styles */
+.section {
+  padding: 80px 0;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Contact Form styles */
+section#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+section#contact input,
+section#contact textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+section#contact button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+section#contact button:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #140808; /* Dark background color */
+  color: #fff; /* Text color */
+  text-align: center;
+  padding: 20px 0;
+}
+/* Footer styles */
+.footer {
+  background-color:blue; /* Dark background color */
+  color: #fff; /* Text color */
+  text-align: center;
+  padding: 20px 0;
+}
+
+  .nav-links {
+      float: none;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .nav-links li {
+      display: block;
+      margin: 10px 0;
+  }
+/* Hero Section styles */
+.hero {
+  background-image: url('/how/pexels-photo-1173777.jpeg'); /* Add your hero background image */
+  background-size:cover ;
+  background-position: center;
+  color:white; /* Text color */
+  text-align: center;
+  padding: 100px 0;
+  height: 80%;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:white; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better contrast */
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color:white; /* Text color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for better contrast */
+}
+
+
+  section {
+      padding: 60px 0;
+  }
+
+  section h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+  }
+
+  section p {
+      font-size: 16px;
+      margin-bottom: 30px;
+  }
+
+  section#contact form {
+      max-width: 100%;
+  }
+
+  section#contact input,
+  section#contact textarea {
+      width: calc(100% - 20px);
+      margin-bottom: 15px;
+  }
+
+  section#contact button {
+      width: 100%;
+  }
+}
+/* Navigation Bar styles */
+.navbar {
+  background-color: rgba(51, 51, 51, 0.9); /* Dark background color with some transparency */
+  color: #fff; /* Text color */
+  padding: 15px 0;
+  position: fixed; /* Fixed position to stay at the top of the page */
+  width: 100%;
+  z-index: 1000; /* Ensure it appears above other elements */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.navbar.scrolled {
+  background-color: rgba(51, 51, 51, 1); /* Solid dark background color on scroll */
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  float: left;
+  color: #fff; /* Logo text color */
+}
+
+.nav-links {
+  float: right;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s; /* Smooth transition for link color */
+}
+
+.nav-links li a:hover {
+  color: #ffd700; /* Change link color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      padding: 10px 0;
+  }
+
+  .nav-links {
+      float: none;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .nav-links li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  .nav-links li a {
+      display: block;
+      padding: 10px 0;
+  }
+}
+.image-contain {
+  display: flex; /* Use flexbox to align images inline */
+}
+
+.image-contain img {
+  width: 650px; /* Adjust the width as needed */
+  height: 600px; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add spacing between images */
+  position: relative;
+  left: 25%;
+  border-radius: 40px;
+}
+.image-container {
+  display: flex; /* Use flexbox to align images inline */
+}
+
+.image-container img {
+  width: 400px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add spacing between images */
+  position: relative;
+  left: 20%;
+  border-radius: 20%;
+}
+
+.image-contai img {
+  width: 700px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add spacing between images */
+  position: relative;
+  left: 20%;
+  border-radius: 10%;
+}
+/* CSS styles for the logo */
+.logo img {
+  width: 40px; /* Adjust the width of the logo as needed */
+  height: 40px; /* Maintain aspect ratio */
+  border-radius: 50%;
+}
+.btn{
+  color: white;
+}
+.image-container {
+  display: flex;
+}
+
+
+
+
+
+
